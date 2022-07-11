@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+nav {
+    width: 697px;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgb(0,0,0,0.25);
+    align-items: center;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    
+}
+
+.lovt{
+    width: 63px;
+    height: 25px;
+    margin-left: 44px;
+    margin-top: 8;
+    margin-bottom: 16;
+    size: 30px;
+    line-height: 32.16px;
+    color: #777777;
+}
+
+.frase{
+    display: flex;
+    flex-direction: column;
+    top: -351px;
+    left: -359px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    color: #AAAAAA;
+    margin-top: 13px;
+    margin-bottom: 14px;
+
+}
+
+
+
+span {
+    color: rgb(33,33,33,0.5);
+    font-size: xx-large;
+}
+
+.icone{
+    margin-right: 21px;
+    margin-top: 18px;
+    margin-bottom: 19px;
+}
+
+main {
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 20px;
+    margin-bottom: 57px;
+}
+
+.primeiraParte {
+    margin-bottom: 37px;
+    background-image: url(/imagens/main-image.svg);
+    width: 608px;
+    height: 259px;
+}
+
+.img-principal {
+    background-image: url(/imagens/main-image.svg);
+    width: 608px;
+    height: 259px;
+}
+
+.botoes{
+    position: relative;
+    width: 608px;
+    height: 259px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btnL{
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+#btnR{    
+    margin-right: 12px;
+    cursor: pointer;}
+
+.setas{}
+#seta-esq{}
+#seta-dir{}
+
+
+
+.segundaParte {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left{
+    height: 242px;
+    width: 256px;
+    background-color: #eeeeee;
+}
+
+.precoNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 13px;
+}
+
+.preco {
+    Width:86px;
+    Height:33px;
+    color: #888888;
+    font-size: 25px;
+    line-height: 27px;
+}
+
+#new {
+    width: 56px;
+    height: 21px;
+    background-color: #51d275;
+    border-radius: 10.5px;
+    font-style: normal;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.right{
+    height: 242px;
+    width: 256px;
+    background-color: #eeeeee;
+}
+
+#sale {
+    width: 56px;
+    height: 21px;
+    background-color:#DC9730;
+    border-radius: 10.5px;
+    font-style: normal;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.precoSale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 13px;
+}
+
+#texto1 {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    color: #555555;
+    margin-left: 12px;
+    margin-right: 13px;
+    margin-bottom: 12px;
+}
+
+#texto2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    color: #555555;
+    margin-left: 12px;
+    margin-right: 13px;
+    margin-bottom: 12px;
+}
+
+.terceiraParte #title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+footer{
+    margin-top: 57px;
+    width: 697px;
+    height: 243px;
+    background: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esquerda{
+    margin-top: 40px;
+    margin-left: 48px;
+    margin-bottom: 40px;
+}
+
+.direita {
+    color: white;
+    margin-right: 40px;
+
+}
+
+.linha{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: justify;
+}
+
+.social{
+    margin-top: 12px;
+    margin-right: 122px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.redes-sociais{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
